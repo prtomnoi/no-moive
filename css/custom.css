@@ -1,94 +1,98 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
 body {
-    font-family: 'Kanit', sans-serif;
-    background-color: #0d0d0d !important;
+  font-family: "Kanit", sans-serif;
+  background-color: #0d0d0d !important;
 }
 
-.header-text{
-    color: #fff;
-    background-color: #000000c2;
-    border-radius: 20px;
-    margin: 30px;
-    padding: 20px;
-    font-weight: 400;
+.header-text {
+  color: #fff;
+  background-color: #000000c2;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 20px;
+  font-weight: 400;
 }
 
-.navbar{
-    margin-bottom: 0;
-    border-radius: 20;
-    font-size: 15px;
+.navbar {
+  margin-bottom: 0;
+  border-radius: 20;
+  font-size: 15px;
 }
 
 .header-image {
-    height: 180px;
-    background-image: url('../img/bgheader.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-
+  /* height: 180px; */
+  background-image: url("../img/bgheader.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-.img-movie{
-    width: 100%;
-    /* height: -webkit-fill-available; */
+.img-movie {
+  width: 100%;
 }
 
-.movie-name{
-    background-color: #29DEF2;
+.movie-name {
+  background-color: #29def2;
 }
-
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {
-    height: 768px
-}
-
-/* Set gray background color and 100% height */
 .sidenav {
-    /* padding-top: 20px; */
-    /* background-color: #f1f1f1; */
-    height: 100%;
+  /* padding-top: 20px; */
+  /* background-color: #f1f1f1; */
+  height: 100%;
 }
 
-.sidenav-body{
-    background-color: #f1f1f1;
-    border-radius: 5px;
+.sidenav-body {
+  background-color: #202020;
+  border-radius: 5px;
 }
 
-.text-left{
-    text-align: left;
+.sidenav-body a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.sidenav-body a:hover {
+    color: #29def2;
+  }
+  
+
+.text-left {
+  text-align: left;
 }
 
-.text-right{
-    text-align: right;
+.text-right {
+  text-align: right;
 }
 
-.cat-number{
-    color: burlywood;
+.cat-number {
+  color: burlywood;
 }
 
-/* Set black background color, white text and some padding */
 footer {
-    background-color: #555;
-    color: white;
-    padding: 15px;
-    /* align-items: flex-end; */
+  margin-top: 20px;
+  background-color: #0c1d40;
+  color: white;
+  padding: 15px;
+  /* align-items: flex-end; */
 
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    /* height: 100px; */
-    width: 100%;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  /* height: 100px; */
+  width: 100%;
+}
+.img-movie {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.card.moive-list {
+  background-color: transparent;
+  border: 0;
 }
 
-/* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
-    .sidenav {
-        height: auto;
-        padding: 15px;
-    }
-
-    .row.content {
-        height: auto;
-    }
+.card.moive-list .card-body {
+  padding: 0;
+}
+.col-md-2.movie-grid {
+  padding: 5px;
 }

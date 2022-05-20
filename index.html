@@ -6,25 +6,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-  <link href="css/custom.css" media="all" type="text/css" rel="stylesheet">
+ 
   <link href="css/bootstrap.css" media="all" type="text/css" rel="stylesheet">
+  <link href="css/responsive.css" media="all" type="text/css" rel="stylesheet">
+  <link href="css/custom.css" media="all" type="text/css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
 
   <div class="header-image">
     <div class="row">
-      <div class="col-sm-3" style="text-align:right; ">
+      <div class="col-md-3 text-center">
         <a href="">
-          <img style="margin: 30px ;" src="../Nomovie038/img/logo.png" width="40%" alt="">
+          <img style="margin: 30px ;" src="img/logo.png" width="40%" alt="">
         </a>
       </div>
-      <div class="col-sm-9">
+      <div class="col-md-9">
         <h1 class="header-text">
           ดูหนังออนไลน์ ดูหนังเต็มเรื่อง ดูหนังใหม่ หนังHD หนัง2021 หนัง2022
           Nomovie038 ซีรี่ย์ออนไลน์ หนังการ์ตูน
@@ -66,7 +67,7 @@
 
   <div class="container-fluid text-center">
     <div class="row content">
-      <div class="col-sm-2 sidenav">
+      <div class="col-md-2 sidenav">
         <div style="background-color: #145e8c; border-radius: 6px; color: white;">
           <p>ประเภทหนัง</p>
         </div>
@@ -84,107 +85,315 @@
         </div>
 
       </div>
-      <div class="col-sm-8 text-left">
+      <div class="col-md-8">
         <div class="row">
-          <div class="col-md-2">
-            <div class="card" style="border-radius: 10% ; ">
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
               <a href="">
                 <div class="card-body">
-                  <img class="img-movie" height="250" width="125" src="../Nomovie038/img/Fortnite.webp" alt="">
+                  <img class="img-movie"  src="img/Fortnite.webp" alt="">
                 </div>
-                <div class="card-footer">
-                  <p class="text-center movie-name">Fortnite</p>
-                </div>
-              </a>
-
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card" style="border-radius: 10% ; ">
-              <a href="">
-                <div class="card-body">
-                  <img class="img-movie" height="250" src="../Nomovie038/img/lostcity.jpg" alt="">
-                </div>
-                <div class="card-footer">
-                  <p class="text-center movie-name">Lostcity</p>
+                <div class="card-footer p-1">
+                  <a href="" class="btn btn-primary btn-block">Fortnite</a>
                 </div>
               </a>
 
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="card" style="border-radius: 10% ; ">
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
               <a href="">
                 <div class="card-body">
-                <img class="img-movie" height="250" src="../Nomovie038/img/madlines.jpg" alt="">
+                  <img class="img-movie"  src="img/lostcity.jpg" alt="">
+                </div>
+                <div class="card-footer p-1">
+                  <a href="" class="btn btn-primary btn-block">Lostcity</a>
+                </div>
+              </a>
+
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie" src="img/madlines.jpg" alt="">
               </div>
-              <div class="card-footer">
-                <p class="text-center movie-name">Madlines</p>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Madlines</a>
               </div>
               </a>
               
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="card" style="border-radius: 10% ; ">
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
               <a href="">
                 <div class="card-body">
-                <img class="img-movie" height="250" src="../Nomovie038/img/Morbius-2022.jpeg" alt="">
+                <img class="img-movie"  src="img/Morbius-2022.jpeg" alt="">
               </div>
-              <div class="card-footer">
-                <p class="text-center movie-name">Morbius-2022</p>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Morbius-2022</a>
               </div>
               </a>
               
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="card" style="border-radius: 10% ; ">
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
               <a href="">
                 <div class="card-body">
-                <img class="img-movie" height="250" src="../Nomovie038/img/No-Exit-2022.jpeg" alt="">
+                <img class="img-movie"  src="img/No-Exit-2022.jpeg" alt="">
               </div>
-              <div class="card-footer">
-                <p class="text-center movie-name">No-Exit-2022</p>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">No-Exit-2022</a>
               </div>
               </a>
               
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="card" style="border-radius: 10% ; ">
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
               <a href="">
                 <div class="card-body">
-                <img class="img-movie" height="250" src="../Nomovie038/img/scream8.jpeg" alt="">
+                <img class="img-movie"  src="img/scream8.jpeg" alt="">
               </div>
-              <div class="card-footer">
-                <p class="text-center movie-name">Scream8</p>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Scream8</a>
               </div>
               </a>
               
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="card" style="border-radius: 10% ; ">
+          <div class="col-md-2 movie-grid ">
+            <div class="card moive-list" style="border-radius: 10% ; ">
               <a href="">
                 <div class="card-body">
-                <img class="img-movie" height="250" src="../Nomovie038/img/The-Guilty-2021.png" alt="">
+                <img class="img-movie"  src="img/The-Guilty-2021.png" alt="">
               </div>
-              <div class="card-footer">
-                <p class="text-center movie-name">The-Guilty-2021</p>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">The-Guilty-2021</a>
               </div>
               </a>
               
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="card" style="border-radius: 10% ; ">
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
               <a href="">
                 <div class="card-body">
-                <img class="img-movie" height="250" src="../Nomovie038/img/uncharted.jpeg" alt="">
+                <img class="img-movie" src="img/uncharted.jpeg" alt="">
               </div>
-              <div class="card-footer">
-                <p class="text-center movie-name">Uncharted</p>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Uncharted</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                  <img class="img-movie"  src="img/Fortnite.webp" alt="">
+                </div>
+                <div class="card-footer p-1">
+                  <a href="" class="btn btn-primary btn-block">Fortnite</a>
+                </div>
+              </a>
+
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                  <img class="img-movie"  src="img/lostcity.jpg" alt="">
+                </div>
+                <div class="card-footer p-1">
+                  <a href="" class="btn btn-primary btn-block">Lostcity</a>
+                </div>
+              </a>
+
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie" src="img/madlines.jpg" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Madlines</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie"  src="img/Morbius-2022.jpeg" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Morbius-2022</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie"  src="img/No-Exit-2022.jpeg" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">No-Exit-2022</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie"  src="img/scream8.jpeg" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Scream8</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid ">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie"  src="img/The-Guilty-2021.png" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">The-Guilty-2021</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie" src="img/uncharted.jpeg" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Uncharted</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                  <img class="img-movie"  src="img/Fortnite.webp" alt="">
+                </div>
+                <div class="card-footer p-1">
+                  <a href="" class="btn btn-primary btn-block">Fortnite</a>
+                </div>
+              </a>
+
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                  <img class="img-movie"  src="img/lostcity.jpg" alt="">
+                </div>
+                <div class="card-footer p-1">
+                  <a href="" class="btn btn-primary btn-block">Lostcity</a>
+                </div>
+              </a>
+
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie" src="img/madlines.jpg" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Madlines</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie"  src="img/Morbius-2022.jpeg" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Morbius-2022</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie"  src="img/No-Exit-2022.jpeg" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">No-Exit-2022</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie"  src="img/scream8.jpeg" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Scream8</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid ">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie"  src="img/The-Guilty-2021.png" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">The-Guilty-2021</a>
+              </div>
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-2 movie-grid">
+            <div class="card moive-list" style="border-radius: 10% ; ">
+              <a href="">
+                <div class="card-body">
+                <img class="img-movie" src="img/uncharted.jpeg" alt="">
+              </div>
+              <div class="card-footer p-1">
+                <a href="" class="btn btn-primary btn-block">Uncharted</a>
               </div>
               </a>
               
@@ -192,46 +401,45 @@
           </div>
         </div>
 
-        <!-- <h1>Welcome</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <hr>
-        <h3>Test</h3>
-        <p>Lorem ipsum...</p> -->
       </div>
-      <div class="col-sm-2 sidenav">
+      <div class="col-md-2 sidenav">
         <div style="background-color: #145e8c; border-radius: 6px; color: white;">
           <p>หมวดหมู่หนัง</p>
         </div>
         <div class="sidenav-body">
-          <p><a href="">ซีรี่ฝรั่ง</a> <a class="cat-number">(618)</a></p>
-          <p><a href="">ซีรี่เกาหลี</a> <a class="cat-number">(170)</a></p>
-          <p><a href="">ซีรี่เน็ตฟิก</a> <a class="cat-number">(179)</a></p>
-          <p><a href="">หนังการ์ตูน</a> <a class="cat-number">(201)</a></p>
-          <p><a href="">หนังครอบครัว</a> <a class="cat-number">(50)</a></p>
-          <p><a href="">หนังซอมบี้</a> <a class="cat-number">(4)</a></p>
-          <p><a href="">หนังดราม่า</a> <a class="cat-number">(1117)</a></p>
-          <p><a href="">หนังตลก</a> <a class="cat-number">(731)</a></p>
-          <p><a href="">หนังผจญภัย</a> <a class="cat-number">(933)</a></p>
-          <p><a href="">หนังผี</a> <a class="cat-number">(248)</a></p>
-          <p><a href="">หนังผู้ใหญ่ AV 18+</a> <a class="cat-number">(136)</a></p>
-          <p><a href="">หนังระทึกขวัญ</a> <a class="cat-number">(443)</a></p>
-          <p><a href="">หนังวิทยาศาสตร์</a> <a class="cat-number">(241)</a></p>
-          <p><a href="">หนังสงคราม</a> <a class="cat-number">(720)</a></p>
-          <p><a href="">หนังสยองขวัญ</a> <a class="cat-number">(223)</a></p>
-          <p><a href="">หนังอาชญากรรม</a> <a class="cat-number">(344)</a></p>
+          <p><a href="">ซีรี่ฝรั่ง <span class="cat-number">(618)</span></a></p>
+          <p><a href="">ซีรี่เกาหลี</a> <span class="cat-number">(170)</span></p>
+          <p><a href="">ซีรี่เน็ตฟิก</a> <span class="cat-number">(179)</span></p>
+          <p><a href="">หนังการ์ตูน</a> <span class="cat-number">(201)</span></p>
+          <p><a href="">หนังครอบครัว</a> <span class="cat-number">(50)</span></p>
+          <p><a href="">หนังซอมบี้</a> <span class="cat-number">(4)</span></p>
+          <p><a href="">หนังดราม่า</a> <span class="cat-number">(1117)</span></p>
+          <p><a href="">หนังตลก</a> <span class="cat-number">(731)</span></p>
+          <p><a href="">หนังผจญภัย</a> <span class="cat-number">(933)</span></p>
+          <p><a href="">หนังผี</a> <span class="cat-number">(248)</span></p>
+          <p><a href="">หนังผู้ใหญ่ AV 18+</a> <span class="cat-number">(136)</span></p>
+          <p><a href="">หนังระทึกขวัญ</a> <span class="cat-number">(443)</span></p>
+          <p><a href="">หนังวิทยาศาสตร์</a> <span class="cat-number">(241)</span></p>
+          <p><a href="">หนังสงคราม</a> <span class="cat-number">(720)</span></p>
+          <p><a href="">หนังสยองขวัญ</a> <span class="cat-number">(223)</span></p>
+          <p><a href="">หนังอาชญากรรม</a> <span class="cat-number">(344)</span></p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- <footer class="container-fluid text-center">
-    <p>Footer Text</p>
-  </footer> -->
-
+  <footer class="container-fluid text-center">
+    <div class="content-site">
+      <div class="container">
+      <figure align="center"> <img style="margin: 30px ;" src="img/logo.png" width="100px" alt=""></figure>
+      <div style="padding:10px;">
+      <p><strong>เว็บไซต์ดูหนัง ดูหนังฟรี Nomovie038.com</strong> ดูหนังไม่กระตุก หนังHD หนังฝรั่ง หนังเอเชีย หนังออนไลน์ ดูหนังไม่เสียเงิน ดูหนังผ่านสมาร์ทโฟน หนังเต็มเรื่อง MovieHDFree มูฟวี่เอสดีฟรี หนังบู๊ หนังผจญภัย หนังการ์ตูน หนังชีวิตจริง หนังตลก หนังอาชญากรรม สารคดี หนังมากมายมากกว่า หมื่นเรื่อง หนังให้ดูฟรี 360 720 1080 4K ดูหนังไม่สะดุด หนังออนไลน์ไม่กระตุก ดูหนังใหม่ล่าสุดอัพเดทใหม่ตลอด</p> </div>
+      </div>
+      </div>
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
